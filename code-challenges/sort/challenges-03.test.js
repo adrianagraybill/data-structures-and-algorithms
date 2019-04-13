@@ -279,3 +279,4 @@ describe('Testing challenge 10', () => {
       new Meeting('Friday', '1200', '1345'),
     ]);
   });
+});
