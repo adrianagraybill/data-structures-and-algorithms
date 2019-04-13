@@ -7,8 +7,9 @@ Write a function named sortBackwards that takes in an array of numbers and retur
 ------------------------------------------------------------------------------------------------ */
 
 const sortBackwards = (arr) => {
-  // Solution code here...
-};
+    arr.sort( (a,b) => (b-a));
+    return arr;
+  };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -278,4 +279,3 @@ describe('Testing challenge 10', () => {
       new Meeting('Friday', '1200', '1345'),
     ]);
   });
-});
