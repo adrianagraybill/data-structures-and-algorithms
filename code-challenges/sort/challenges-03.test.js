@@ -46,7 +46,10 @@ For example, ['Alphabet', 'alphabet', 'carrot', 'Zebra'] is correctly sorted, an
 ------------------------------------------------------------------------------------------------ */
 
 const alphabetizeBetter = (arr) => {
-  // Solution code here...
+  return arr.sort((a,b) =>
+    a.toLowerCase() > b.toLowerCase() ? 1 :
+      (a.toLowerCase() < b.toLowerCase() ? -1 :
+        0));
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -63,7 +66,7 @@ Here is an example of the input:
 ------------------------------------------------------------------------------------------------ */
 
 const sortByPrice = (arr) => {
-  // Solution code here...
+  return arr.sort((a,b) => a.price - b.price);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -75,7 +78,7 @@ For example, [1, 14, 0.2, -281, 54782] is only correctly sorted in that order.
 ------------------------------------------------------------------------------------------------ */
 
 const sortNumbersByLength = (arr) => {
-  // Solution code here...
+  return arr.sort((a,b) => a.toString().length - b.toString().length);
 };
 
 /*-----------------------------------------------------------------------------------------------
@@ -97,7 +100,10 @@ const people = [
 ];
 
 const sortPeople = (arr) => {
-  // Solution code here...
+  return arr.sort((a,b) =>
+    a.lastName > b.lastName ? 1 :
+      (a.lastName < b.lastName ? -1 :
+        0));
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -111,13 +117,13 @@ If two people have the same full name, the younger one should come first. Do not
 ------------------------------------------------------------------------------------------------ */
 
 const sortPeopleBetter = (arr) => {
-  return arr.toStrictEqual.sort((a,b) => {
+  return arr.sort((a,b) => {
     if (a.lastName !== b.lastName) {
       return a.lastName > b.lastName ? 1 : -1;
     } else if (a.firstName !== b.firstName) {
       return a.firstName > b.firstName ? 1 : -1;
     } else {
-      (a.age - b.age);
+      return (a.age - b.age);
     }
   });
 };
@@ -145,7 +151,14 @@ const meetings = [
 ];
 
 const sortMeetingsByDay = (arr) => {
-  // Solution code here...
+  let week = {
+    Monday: 0,
+    Tuesday: 1,
+    Wednesday: 2,
+    Thursday: 3,
+    Friday: 4,
+  };
+  return arr.sort((a,b) => week[a.dayOfWeek] - week[b.dayOfWeek]);
 };
 
 /* ------------------------------------------------------------------------------------------------
