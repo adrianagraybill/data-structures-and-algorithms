@@ -233,8 +233,4 @@ describe('Testing challenge 7', () => {
     expect(fizzbuzz(inputs)).toStrictEqual([1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'Fizz Buzz', 16]);
     expect(fizzbuzz(inputs).length).toStrictEqual(16);
   });
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 1c38b964b7006d139d17a8935fe92f22ce3588d3
