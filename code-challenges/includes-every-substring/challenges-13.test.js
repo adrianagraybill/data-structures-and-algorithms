@@ -38,15 +38,7 @@ Write a function named onlyOddChars that takes in a string and returns only the 
 For example, 'abcdefg' returns 'bdf'
 ------------------------------------------------------------------------------------------------ */
 
-const onlyOddChars = (str) => {
-  let result = [];
-  for (let i =0; i < str.length; i++) {
-    if (i%2 === 1) {
-      result.push(str[i]);
-    }
-  }
-  return result.toString().replace(/,/g,'');
-};
+const onlyOddChars = (str) => str.split('').filter((element, index) => index % 2 === 1).join('');
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -92,9 +84,7 @@ Return a two-dimensional array with the same roster, but where anyone whose name
 For example, [['Brook Testing', 'Actual Person'], ['Human Person', 'Brook again', 'still Brook']] returns [['Actual Person'], ['Human Person']]
 ------------------------------------------------------------------------------------------------ */
 
-const unenrollBrook = (arr) => {
-  // Solution code here...
-};
+const unenrollBrook = (arr) => arr.mao (course => course.filter(person => !person.includes('Brook')));
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 9 - Stretch Goal
