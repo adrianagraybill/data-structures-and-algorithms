@@ -70,8 +70,7 @@ let characters = [
 
 const getHouses = (arr) => {
   let houses = [];
-  
-  
+  characters.forEach(person => person.push(person.house));
   return houses;
 };
 

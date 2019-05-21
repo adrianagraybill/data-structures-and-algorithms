@@ -52,9 +52,7 @@ Read the MDN documentation on String.charCodeAt() if necessary.
 For example: charCode(['h','i']) returns [104, 105].
 ------------------------------------------------------------------------------------------------ */
 
-const charCode = (arr) => {
-  arr.map(
-};
+const charCode = (arr) => arr.map(value => value.charCode());
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -67,7 +65,7 @@ For example: evenOdd([1,2,3]) returns ['odd','even','odd'].
 ------------------------------------------------------------------------------------------------ */
 
 const evenOdd = (arr) => {
-  // Solution code here...
+  let array = 
 };
 
 /* ------------------------------------------------------------------------------------------------
