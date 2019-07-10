@@ -36,6 +36,35 @@ class LinkedList {
     }
     return string;
   }
+
+  append(value) {
+    let current = this.head;
+    if (current) {
+      while (current.next) {
+        current = current.next;
+      }
+      current.next = new Node(value);
+    } else {
+      this.head = new Node(value);
+    }
+  }
+
+  insertBefore(value,newValue) {
+    let current = this.head;
+    while (current.next.value !== value) {
+      current = current.next;
+    }
+    current.next = new Node(newValue, this.next);
+  }
+
+  insertAfter(value,newValue) {
+    let current = this.head;
+    while (current.value !== value) {
+      current = current.next;
+    }
+    current.next = new Node(newValue, this.next);
+  }
+
 }
 
 let list = new LinkedList();
