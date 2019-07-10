@@ -10,4 +10,4 @@ Working with appending and insterting to linkedlists.
 approach linkedlists by figuring out what they are and hwo to communicate with them.
 
 ## Solution
-![Picture](codechallenge6.jpg "Whiteboard Picture")
+![Picture](../../assets/ll_insertions.jpg "Whiteboard Picture")
