@@ -11,6 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "handlebars": "^4.1.2",
     "jest": "^24.1.0"
   }
 }
