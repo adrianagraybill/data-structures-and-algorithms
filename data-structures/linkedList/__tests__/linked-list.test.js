@@ -16,7 +16,7 @@ it('if the value is somewhere within the Linked List', () => {
   expect(list.includes(1)).toBeTruthy();
 });
 
-it('if the value is somewhere within the Linked List', () => {
+it('if the value is not in the Linked List', () => {
   let list = new LinkedList();
   list.insert(1);
   list.insert(2);
@@ -62,13 +62,12 @@ it('inserts after the value selected', () => {
   expect(list.head.next.next.next.next.value).toEqual(6);
 });
 
-it('if K is greater than the length of linked list reply undefined', () => {
+it('if k is greater than the length of linked list result is undefined', () => {
   let list = new LinkedList();
   list.append(5);
   list.append(3);
   list.append(7);
   list.append(10);
-  list.append(55555);
   expect(list.kthFromTheEnd(10)).toBeUndefined();
 });
 
@@ -78,7 +77,7 @@ it('if k and the length are the same', () => {
   list.append(3);
   list.append(7);
   list.append(10);
-  list.append(55555);
+  list.append(1);
   expect(list.kthFromTheEnd(5)).toBeUndefined();
 });
 
@@ -88,14 +87,14 @@ it('if not positive the method throws undefinied', () => {
   list.append(3);
   list.append(7);
   list.append(10);
-  list.append(55555);
+  list.append(7);
   expect(list.kthFromTheEnd(-10)).toBeUndefined();
 });
 
 it('deals with a 1 node LL correctly', () => {
   let list = new LinkedList();
-  list.append(5);
-  expect(list.kthFromTheEnd(0)).toEqual(5);
+  list.append(8);
+  expect(list.kthFromTheEnd(0)).toEqual(8);
 });
 
 it('Actually returns the thing we want it to (the kth value from the linked list)', () => {
