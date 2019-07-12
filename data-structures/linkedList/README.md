@@ -17,7 +17,7 @@ approach linkedlists by figuring out what they are and hwo to communicate with t
 
 
 # Challenge Summary
-Code Challenge 7
+Code Challenge 7 - worked directly with Lee King.
 
 Working through a linked list, finding a specific value.
 
