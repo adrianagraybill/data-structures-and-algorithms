@@ -29,3 +29,21 @@ Approach is to indentify where k is from the beginning of the Linked List and th
 
 ## Solution
 ![Picture](../assets/ll_kth_from_end.jpg "Whiteboard Picture")
+
+
+
+# Challenge Summary
+Code Challenge 8 - worked directly with Lee King.
+
+Merging two linked lists into one of the inputed lists.
+
+## Challenge Description
+Add a global function outside of the LinkedList class that accepts two linked lists as parameters. Returns one of the two parameters with zipped nodes.
+
+## Approach & Efficiency
+Approach was to chain the .next values of each list and point to the other list's node;
+
+## Solution
+![Picture](../assets/ll_merge2.jpg "Whiteboard Picture")
+
+![Picture](../assets/ll_merge1.jpg "Whiteboard Picture")
