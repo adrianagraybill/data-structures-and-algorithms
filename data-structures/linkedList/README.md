@@ -47,3 +47,17 @@ Approach was to chain the .next values of each list and point to the other list'
 ![Picture](../assets/ll_merge2.jpg "Whiteboard Picture")
 
 ![Picture](../assets/ll_merge1.jpg "Whiteboard Picture")
+
+# Challenge Summary
+Code Challenge 11 - worked directly with Lee King and Brad Smialek.
+
+Creating class PsuedoQueue that has two methods that enqueue and dequeue off of two separate stacks. I later changed this to try to apply the Single Responsibility Principle.
+
+## Challenge Description
+We wanted to save space over fast execution.
+
+## Approach & Efficiency
+Approach was to think of these as pallets and we are putting heavy inventory one at a time and need to keep things in a specific order but always pull from the first item placed.
+
+## Solution
+![Picture](../assets/queueWithStacks.jpg "Whiteboard Picture")

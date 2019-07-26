@@ -27,12 +27,6 @@ class LinkedList {
       true : false );
   }
 
-  // compare(list1, list2) {
-  //   return (list1.length() > list2.length() ?
-  //     list1 :
-  //     list2 );
-  // }
-
   insert(value) {
     this.head = new Node(value, this.head);
   }
