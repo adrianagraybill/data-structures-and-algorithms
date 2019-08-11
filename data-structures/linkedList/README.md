@@ -48,6 +48,31 @@ Approach was to chain the .next values of each list and point to the other list'
 
 ![Picture](../assets/ll_merge1.jpg "Whiteboard Picture")
 
+
+
+# Stacks and Queues
+Implement a Stack and a Queue Data Structure
+
+## Challenge
+Created a Node class that has properties for the value stored in the Node, and a pointer to the next node.
+Created a Stack class that has a top property. It creates an empty Stack when instantiated.
+Create a Queue class that has a front property. It creates an empty Queue when instantiated.
+
+## Approach & Efficiency
+My approach is always efficiency, but the point of linked lists is to preserve space. So often I opt for that.
+
+## API
+Method called push which takes any value as an argument and adds a new node with that value to the top of the stack with an O(1) Time performance.
+Method called pop that does not take any argument, removes the node from the top of the stack, and returns the node’s value.
+Method called peek that does not take an argument and returns the value of the node located on top of the stack, without removing it from the stack.
+
+Method called enqueue which takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time performance.
+Method called dequeue that does not take any argument, removes the node from the front of the queue, and returns the node’s value.
+Method called peek that does not take an argument and returns the value of the node located in the front of the queue, without removing it from the queue.
+
+
+
+
 # Challenge Summary
 Code Challenge 11 - worked directly with Lee King and Brad Smialek.
 
