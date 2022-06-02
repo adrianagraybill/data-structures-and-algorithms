@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "handlebars": "^4.1.2",
-    "jest": "^24.1.0"
+    "jest": "^24.1.0",
+    "node-notifier": "^10.0.1"
   }
 }
