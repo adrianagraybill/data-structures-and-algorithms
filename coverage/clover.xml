@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1564116569615" clover="3.2.0">
-  <project timestamp="1564116569616" name="All files">
-    <metrics statements="32" coveredstatements="31" conditionals="13" coveredconditionals="13" methods="8" coveredmethods="7" elements="53" coveredelements="51" complexity="0" loc="32" ncloc="32" packages="2" files="2" classes="2"/>
+<coverage generated="1654142258936" clover="3.2.0">
+  <project timestamp="1654142258936" name="All files">
+    <metrics statements="137" coveredstatements="137" conditionals="37" coveredconditionals="35" methods="30" coveredmethods="30" elements="204" coveredelements="202" complexity="0" loc="137" ncloc="137" packages="7" files="7" classes="7"/>
     <package name="challenges.fifoAnimalShelter">
       <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
-      <file name="fifo-animal-shelter.js" path="/Users/adrianagraybill/codefellows/301n13/labs/data-structures-and-algorithms/challenges/fifoAnimalShelter/fifo-animal-shelter.js">
+      <file name="fifo-animal-shelter.js" path="/Users/adrianagraybill/projects/data-structures-and-algorithms/challenges/fifoAnimalShelter/fifo-animal-shelter.js">
         <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="6" type="stmt"/>
@@ -24,25 +24,160 @@
         <line num="34" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="code-challenges.leetcode.distribute-candies">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="distribute-candies.js" path="/Users/adrianagraybill/projects/data-structures-and-algorithms/code-challenges/leetcode/distribute-candies/distribute-candies.js">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="code-challenges.leetcode.two-sum">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="two-sum.js" path="/Users/adrianagraybill/projects/data-structures-and-algorithms/code-challenges/leetcode/two-sum/two-sum.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="data-structures.linkedList">
+      <metrics statements="65" coveredstatements="65" conditionals="13" coveredconditionals="13" methods="12" coveredmethods="12"/>
+      <file name="linked-list.js" path="/Users/adrianagraybill/projects/data-structures-and-algorithms/data-structures/linkedList/linked-list.js">
+        <metrics statements="65" coveredstatements="65" conditionals="13" coveredconditionals="13" methods="12" coveredmethods="12"/>
+        <line num="5" count="70" type="stmt"/>
+        <line num="6" count="70" type="stmt"/>
+        <line num="12" count="20" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="19" count="24" type="stmt"/>
+        <line num="20" count="24" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="26" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="7" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="56" count="61" type="stmt"/>
+        <line num="57" count="61" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="44" type="stmt"/>
+        <line num="59" count="54" type="stmt"/>
+        <line num="61" count="44" type="stmt"/>
+        <line num="63" count="17" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="3" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="84" count="5" type="stmt"/>
+        <line num="85" count="5" type="stmt"/>
+        <line num="86" count="5" type="stmt"/>
+        <line num="87" count="14" type="stmt"/>
+        <line num="88" count="14" type="stmt"/>
+        <line num="90" count="5" type="stmt"/>
+        <line num="91" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="92" count="3" type="stmt"/>
+        <line num="94" count="3" type="stmt"/>
+        <line num="95" count="3" type="stmt"/>
+        <line num="96" count="3" type="stmt"/>
+        <line num="98" count="3" type="stmt"/>
+        <line num="108" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="110" count="2" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="118" count="3" type="stmt"/>
+        <line num="120" count="3" type="stmt"/>
+        <line num="122" count="6" type="stmt"/>
+        <line num="123" count="6" type="stmt"/>
+        <line num="125" count="6" type="stmt"/>
+        <line num="126" count="6" type="stmt"/>
+        <line num="128" count="6" type="stmt"/>
+        <line num="129" count="6" type="stmt"/>
+        <line num="131" count="3" type="stmt"/>
+        <line num="134" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="data-structures.queue">
-      <metrics statements="16" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="5" coveredmethods="4"/>
-      <file name="queue.js" path="/Users/adrianagraybill/codefellows/301n13/labs/data-structures-and-algorithms/data-structures/queue/queue.js">
-        <metrics statements="16" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="5" coveredmethods="4"/>
-        <line num="3" count="14" type="stmt"/>
-        <line num="4" count="14" type="stmt"/>
-        <line num="10" count="12" type="stmt"/>
-        <line num="11" count="12" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="19" count="14" type="stmt"/>
-        <line num="20" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="6" type="stmt"/>
-        <line num="23" count="14" type="stmt"/>
-        <line num="24" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="25" count="8" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
+      <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="5" coveredmethods="5"/>
+      <file name="queue.js" path="/Users/adrianagraybill/projects/data-structures-and-algorithms/data-structures/queue/queue.js">
+        <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="5" coveredmethods="5"/>
+        <line num="3" count="26" type="stmt"/>
+        <line num="4" count="26" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="11" count="16" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="26" type="stmt"/>
+        <line num="20" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="23" count="26" type="stmt"/>
+        <line num="24" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="data-structures.queueWithStacks">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="queue-with-stacks.js" path="/Users/adrianagraybill/projects/data-structures-and-algorithms/data-structures/queueWithStacks/queue-with-stacks.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="data-structures.stack">
+      <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <file name="stack.js" path="/Users/adrianagraybill/projects/data-structures-and-algorithms/data-structures/stack/stack.js">
+        <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="5" count="17" type="stmt"/>
+        <line num="6" count="17" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="17" count="17" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="22" count="11" type="stmt"/>
+        <line num="23" count="10" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="28" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
       </file>
     </package>
