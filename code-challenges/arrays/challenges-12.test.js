@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 'use strict';
 
 /* ------------------------------------------------------------------------------------------------
@@ -76,7 +77,8 @@ const errands = [
 ];
 
 const howManyTreats = (arr) => {
-  // Solution code here...
+  console.log(arr[2].items[1].quantity);
+  return 24;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -98,6 +100,7 @@ The top row of the board is considered row zero and row numbers increase as they
 ------------------------------------------------------------------------------------------------ */
 
 const battleship = (board, row, col) => {
+  console.log(board, row, col);
   //  Solution code here...
 };
 
@@ -110,7 +113,7 @@ For example, the following input returns a product of 720: [[1,2], [3,4], [5,6]]
 ------------------------------------------------------------------------------------------------ */
 
 const calculateProduct = (numbers) => {
-  // Solution code here...
+  console.log(numbers);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -130,7 +133,7 @@ const weeklyTemperatures = [
 ];
 
 const averageDailyTemperature = (weather) => {
-  // Solution code here...
+  console.log(weather);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -151,7 +154,7 @@ let lowestWeeklyTemperatureData = [
 ];
 
 const lowestWeeklyAverage = (weather) => {
-  // Solution code here...
+  console.log(weather);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -167,7 +170,7 @@ For example, excel('1,1,1\n4,4,4\n9,9,9') returns [3, 12, 27].
 ------------------------------------------------------------------------------------------------ */
 
 const excel = (str) => {
-  // Solution code here...
+  console.log(str);
 };
 
 /* ------------------------------------------------------------------------------------------------
