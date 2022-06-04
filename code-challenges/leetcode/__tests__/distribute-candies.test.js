@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 'use strict';
 
 const candies = require('../distribute-candies/distribute-candies.js');
